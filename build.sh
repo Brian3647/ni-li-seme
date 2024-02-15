@@ -1,8 +1,9 @@
 #!/bin/bash
 
+rm -rf dist/*
 mkdir -p dist
 
-bun build src/index.ts --outfile=dist/index.js --minify --target=browser
+bun build src/content.ts --outfile=dist/content.js --minify --target=browser
 
 cpdist() {
 	for file in $@; do
@@ -10,4 +11,6 @@ cpdist() {
 	done
 }
 
-cpdist src/*.html src/*.css manifest.json assets/*
+cpdist src/*.html manifest.json assets/*
+
+bun x tailwindcss build -i src/styles.css -o dist/tailwind.css
