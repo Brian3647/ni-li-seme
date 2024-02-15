@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 ![Logo](assets/logo.webp)
 
@@ -8,7 +8,7 @@ _a chrome extension for toki pona learners. double-click on any toki pona word t
 
 [![License](https://img.shields.io/github/license/Brian3647/ni-li-seme)](LICENSE)
 
-</center>
+</div>
 
 ## Installation
 
