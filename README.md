@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](assets/logo.webp)
+![Logo](assets/logo-full.webp)
 
 # ni li seme?
 

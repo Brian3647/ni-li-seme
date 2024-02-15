@@ -1,0 +1,16 @@
+{
+	"name": "niliseme",
+	"module": "src/index.ts",
+	"type": "module",
+	"devDependencies": {
+		"bun-types": "latest",
+		"prettier": "^3.2.5"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"build": "bash ./build.sh",
+		"fmt": "prettier --write ."
+	}
+}
