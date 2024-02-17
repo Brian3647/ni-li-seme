@@ -14,5 +14,8 @@
   "scripts": {
     "build": "bash ./build.sh",
     "fmt": "prettier --write ."
+  },
+  "dependencies": {
+    "@kulupu-linku/sona": "^0.1.8"
   }
 }
